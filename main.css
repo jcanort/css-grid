@@ -1,12 +1,15 @@
 .grid{
     display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto 400px;
+    gap: 1em;
 }
 
-div{
+.grid div{
     background-color: aquamarine;
     padding: 1em;
 }
 
-div:hover{
+.grid div:hover{
     border: 2px solid black;
 }
