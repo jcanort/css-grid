@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+}
+
+div{
+    background-color: aquamarine;
+    padding: 1em;
+}
+
+div:hover{
+    border: 2px solid black;
+}
